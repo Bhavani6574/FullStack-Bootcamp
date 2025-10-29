@@ -1,78 +1,57 @@
-// alert("BHAVANI MUNIRAJU")
+let raining = false;
+ let sunny = true;
+ if (raining) {
+   console.log("Take an umbrella ☔");
+ }
+  else {
+   console.log("WALK AROUND");
+ }
+
+//voting eligibility
+let age = 18
+
+  if (age>=18) {
+  console.log("YOU CAN VOTE!!");
+  } else {
+    console.log("you cannot VOTE!!");
+  }
 
 
-// var name ="bhavani m"
-// console.log(name)
-// var name = "Shivani m"
-// console.log(name)
 
 
-// //data types
-// name = "BHAVANI M"
-// console.log(typeof name)//output:-string
-// age = 111
-// console.log(typeof  age)   //number
-// marks= 85.5
-// console.log(typeof marks)  //MARKS 
-// isstudent = true
-// console.log(typeof isstudent) //boolean
-// word = null
-// console.log(typeof  word)//object
-// what;
-// console.log(typeof what)
+//grade function
+  let marks = 90;
 
-// alert("THIS IS MY 2ND DAY OF LEARNING JAVASCRIPT 💥")
+  if (marks>=90){
+    console.log("Grade A")
+  }else if (marks>=80){
+  console.log("Grade B")
+  }else {
+    console.log("Grade F")
+  }
+  
+//even or odd
+  let num =3;
+  if (num%2==0){
+    console.log("The number is even")
+  } else {
+    console.log("The number is odd")
+  }
 
-let name = "BHAVANI M";
-let age = 16;
-let goal = "FULL STACK DEV -> AI -> QUANTUM";
-console.log(`I'M ${name}, ${age} years old , I WANT TO BE NO!! I WILL BE ${goal}`);
 
-let a = '2';
-let b = '3';
-console.log(a + b);
+  //positive or negative
+  let value = -9;
+  if (value>0){
+    console.log("the number is positive")
+  }
+  else {
+      console.log("The number is negative ")
+  }
 
-let x = 10;
-let y = "10";
-let z;
-let t = null;
-
-console.log(typeof x);
-console.log(typeof y);
-console.log(typeof z);
-console.log(typeof t);
-
-let name2 = "Bhavani m";
-let age2 = 16;
-let goal2 = "full - ai - quantum";
-console.log(`I'm ${name2}, ${age2} years old , i want to be ${goal2}`);
-
-let num = 42;
-let text = "Hello";
-let isCool = true;
-let nothing = null;
-let notDefined;
-
-console.log(typeof num);
-console.log(typeof text);
-console.log(typeof isCool);
-console.log(typeof nothing);
-console.log(typeof notDefined);
-
-let firstName = "Bhavani";
-let lastName = "M";
-let goal3 = "Full Stack → AI → Quantum Developer";
-console.log(`HIi, I'm ${firstName} ${lastName}, and my dream is to become a ${goal3}.`);
-
-let a2 = 5;
-let b2 = 3;
-console.log("sum:", a2 + b2);
-console.log("difference:", a2 - b2);
-console.log("multiplication:", a2 * b2);
-console.log("division:", a2 / b2);
-console.log("remainder:", a2 % b2);
-
-let x2 = 5;
-let y2 = "5";
-console.log(x2 == y2);
-console.log(x2 === y2);
+//input 
+  num = prompt("Enter a number:")
+  if (num%2==0){
+    console.log("The number is even")
+  } else {
+    console.log("The number is odd")
+  }
