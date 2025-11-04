@@ -1,4 +1,4 @@
-
+                             
 
 console.log("----- CONDITIONAL STATEMENTS -----");
 
@@ -81,5 +81,6 @@ function myName() {
   return "BHAVANI M";
 }
 console.log("My Name:", myName());
+
 
 
