@@ -5,7 +5,7 @@ var name ="bhavani m"
 console.log(name)
 var name = "Shivani m"
 console.log(name)
-
+               
 
 //data types
 name = "BHAVANI M"
@@ -22,3 +22,4 @@ console.log(typeof  word)//object
 // console.log(typeof what)
 
 alert("THIS IS MY 2ND DAY OF LEARNING JAVASCRIPT 💥")
+
