@@ -1,7 +1,7 @@
 let i;
 let j;
 let n =5
-let row;
+let row;   
 for (i = 1; i <= n; i++) {
   row = " ";
   for (j = 1; j <= n; j++) {
@@ -14,3 +14,4 @@ for (i = 1; i <= n; i++) {
 }
   console.log(row);
 }
+
