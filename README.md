@@ -1,2 +1,3 @@
-Practiced nested loops and pattern problems.
+ Practiced nested loops and pattern problems.
 Learned borders, diagonals.
+
