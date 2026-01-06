@@ -1,6 +1,6 @@
 let name = "BHAVANI M";
 let age = 16;
-let goal = "FULL STACK DEV -> AI -> QUANTUM";
+let goal = "FULL STACK DEV -> AI ";
 console.log(`I'M ${name}, ${age} years old , I WANT TO BE NO!! I WILL BE ${goal}`);
 
 let a = '2';
@@ -19,7 +19,7 @@ console.log(typeof t);
 
 let name2 = "Bhavani m";
 let age2 = 16;
-let goal2 = "full - ai - quantum";
+let goal2 = "full - ai ";
 console.log(`I'm ${name2}, ${age2} years old , i want to be ${goal2}`);
 
 let num = 42;
@@ -36,7 +36,7 @@ console.log(typeof notDefined);
 
 let firstName = "Bhavani";
 let lastName = "M";
-let goal3 = "Full Stack → AI → Quantum Developer";
+let goal3 = "Full Stack → AI ";
 console.log(`HIi, I'm ${firstName} ${lastName}, and my dream is to become a ${goal3}.`);
 
 let a2 = 5;
@@ -51,3 +51,4 @@ let x2 = 5;
 let y2 = "5";
 console.log(x2 == y2);
 console.log(x2 === y2);
+
