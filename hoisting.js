@@ -10,4 +10,5 @@ let a = 5;
   // console.log(a); // ReferenceError due to TDZ
   let a = 10;
   console.log(a); // 10
+
 }
